@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -18,6 +19,7 @@ import { CarritoComponent } from './carrito/carrito.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { FormComponent } from './form/form.component';
 import { FormService } from './form.service';
+import { ProductoComponent } from './producto/producto.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { FormService } from './form.service';
     ProductosComponent,
     CarritoComponent,
     ContactoComponent,
-    FormComponent
+    FormComponent,
+    ProductoComponent
   ],
   imports: [
     BrowserModule,

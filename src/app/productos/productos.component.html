@@ -1,5 +1,7 @@
 <div class="container">
     <h1>Productos</h1>
     <h2>Productos disponibles</h2>
-    
+    <div *ngFor="let producto of productos">
+        <app-producto [name]="producto.name" [id]="producto.id" [descripcion]="producto.descripcion" [price]="producto.price"></app-producto>
+    </div>
 </div>
