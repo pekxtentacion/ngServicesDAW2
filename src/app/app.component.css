@@ -1,0 +1,39 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.header-links a{
+    padding: 1vh;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9vw;
+    margin-left: 2em;
+}
+
+.header-links a:hover{
+    border-radius: 5px;
+    background-color: #b6c1f1;
+    color: #3F51B5;
+    transition-duration: 200ms;
+}
+
+.footer {
+    min-height: 5vh;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #3F51B5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    color: white;
+    font-size: 0.9vw;
+}
+
+body{
+    display: flex;
+}

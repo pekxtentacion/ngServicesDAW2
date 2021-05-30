@@ -1,0 +1,20 @@
+.container {
+    margin: 1vw;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descripcion {
+    flex: 0.5;
+    text-align: justify;
+}
+
+.img {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+}

@@ -1,0 +1,16 @@
+.container {
+    margin: 1vw;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form {
+    flex: 0.3;
+}
+
+.info {
+    flex: 0.3;
+}

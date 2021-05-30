@@ -1,0 +1,12 @@
+<form class="form">
+    <mat-form-field appearance="fill">
+        <mat-label>Nombre</mat-label>
+        <input matInput name="name" [(ngModel)]="name">
+    </mat-form-field>
+    
+    <mat-form-field appearance="fill">
+        <mat-label>Mensaje</mat-label>
+        <textarea matInput name="mensaje" [(ngModel)]="mensaje"></textarea>
+    </mat-form-field>
+    <button mat-flat-button color="accent" (click)="sendData(name, mensaje)">Enviar</button>
+</form>
