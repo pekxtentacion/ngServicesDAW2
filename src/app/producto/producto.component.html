@@ -1,1 +1,17 @@
-<p>{{ id }} {{ name }} {{ descripcion }}{{ price }}</p>
+<mat-card class="container-card">
+    <mat-card-header>
+        <mat-card-title>
+            {{ name }}
+        </mat-card-title>
+        <span [matBadge]="count" matBadgeOverlap="false" [ngClass]="{'badge' : count === 0}"></span>
+    </mat-card-header>
+    <mat-card-content>
+        <p>
+            {{ descripcion }}
+        </p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-button color="primary" (click)="decrement()">Quitar</button>
+        <button mat-raised-button color="primary" (click)="increment()">Añadir</button>
+    </mat-card-actions>
+</mat-card>

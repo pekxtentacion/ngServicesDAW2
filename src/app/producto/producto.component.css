@@ -1,0 +1,14 @@
+.container-card {
+    max-width: 15vw;
+    min-width: 13vw;
+    margin: 1vw;
+}
+
+mat-card-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.badge {
+    display: none;
+}

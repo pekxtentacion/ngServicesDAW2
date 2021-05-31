@@ -21,7 +21,7 @@ export class ProductosComponent implements OnInit {
         id: 2,
         name: 'producto 2',
         price: 20,
-        descripcion: 'descripcion del producto 3',
+        descripcion: 'descripcion del producto 2',
       },
       {
         id: 3,

@@ -11,7 +11,11 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatSelectModule} from '@angular/material/select';
 import {MatInputModule} from '@angular/material/input';
+import {MatBadgeModule} from '@angular/material/badge';
+import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
+import {MatTableModule} from '@angular/material/table';
+import {MatIconModule} from '@angular/material/icon';
 
 import { HomeComponent } from './home/home.component';
 import { ProductosComponent } from './productos/productos.component';
@@ -20,6 +24,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { FormComponent } from './form/form.component';
 import { FormService } from './form.service';
 import { ProductoComponent } from './producto/producto.component';
+import { CarritoService } from './carrito.service';
 
 @NgModule({
   declarations: [
@@ -41,8 +46,12 @@ import { ProductoComponent } from './producto/producto.component';
     MatInputModule,
     FormsModule,
     MatButtonModule,
+    MatCardModule,
+    MatBadgeModule,
+    MatIconModule,
+    MatTableModule,
   ],
-  providers: [FormService],
+  providers: [FormService, CarritoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

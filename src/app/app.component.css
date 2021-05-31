@@ -37,3 +37,13 @@
 body{
     display: flex;
 }
+
+.badge {
+    display: none;
+}
+
+.badgeIcon {
+    display: inline-block;
+    padding-bottom: 7px;
+    padding-left: 2px;
+}
